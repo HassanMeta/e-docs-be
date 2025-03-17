@@ -2,3 +2,6 @@ fastapi
 uvicorn
 google
 google-genai
+pandas
+firebase-admin
+python-multipart
