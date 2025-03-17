@@ -48,29 +48,17 @@ async def extract_invoice(file: UploadFile = File(...)):
 
     # Define content for extraction
     files = [
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/3DUA.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/SVST.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/MODE.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/KAHA.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/KEHE.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/RMMG.PDF"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/BYOGO.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/RAMG.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/HANS.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/HANS.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/BORA.pdf"),
-        # Make the file available in local system working directory
         client.files.upload(file="training_invoices/SVST.pdf"),
     ]
     model = "gemini-2.0-flash-exp"
